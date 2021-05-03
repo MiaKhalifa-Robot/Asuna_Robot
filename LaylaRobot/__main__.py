@@ -53,16 +53,15 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-You can find my list of available commands with /help.
-i'm a group manager bot. 
+Hello Babu Kaise Ho Meri Jaan😘
 
-Developed By- [『DC』ᵀᵉᵃᵐ★ᎳᎪᏒᏒᎥᎾᏒ★](https://t.me/DEBOJYOTINO1)
+Developed By- [DΣVIᄂ ӨP](https://t.me/SecretBoy_xd)
 
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-
+Mela Babu Ne Thana Thaya 💋 Me Teri GirlFriend Hu Bhulgaya Muje 
 *Main* commands available:
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
@@ -81,7 +80,7 @@ And the following:
 SAITAMA_IMG = "https://telegra.ph/file/f9631797f7fec76c886c7.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Supporting Team >> [ＧＥＮＥＲＡＬツ★](t.me/Animeweebs2)"""
+You Can Donate My Developer [DΣVIᄂ ӨP](https://t.me/SecretBoy_xd)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -199,26 +198,26 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="👰 Add ASUNA to your group",
+                            text="💋Add Me To Your Group Babu💋",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="Support Group",
-                             url=f"https://t.me/Animeweebs2"),
+                             url=f"https://t.me/cuddles_of_pandas"),
                          InlineKeyboardButton(
-                             text="CHAT WITH ANIME LOVERS",
-                             url="https://t.me/Animeweebs2")
+                             text="😍Mela Babu😍",
+                             url="https://t.me/Hackeers")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="☑️ Source code",
-                             url="https://github.com/sadhanhori/ASUNA_ROBOT")
+                             text="☑️ Source code ☑️ ",
+                             url="https://github.com/MiaKhalifa-Robot/Asuna_Robot")
                      ]]))
     else:
         update.effective_message.reply_text(
-            "Damn!Im all rady online 🙄🙄 \n<b>Up since:</b> <code>{}</code>".format(uptime),
+            "Babu Me Tere Liye Zinda Hu \n<b>UpWaiting For You Since:</b> <code>{}</code>".format(uptime),
             parse_mode=ParseMode.HTML)
 
 
