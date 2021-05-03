@@ -204,7 +204,7 @@ def start(update: Update, context: CallbackContext):
                     ],
                      [
                          InlineKeyboardButton(
-                             text="Support Group",
+                             text="🤝Support Group🤝",
                              url=f"https://t.me/cuddles_of_pandas"),
                          InlineKeyboardButton(
                              text="😍Mela Babu😍",
